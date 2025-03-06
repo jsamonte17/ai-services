@@ -6,6 +6,10 @@
 /db-data
 /redis-data
 
+.env
+docker-compose.yml
+docker-compose-prod.yml
+
 # Logs
 logs
 *.log
