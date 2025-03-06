@@ -1,0 +1,62 @@
+version: '3'
+services:
+  api-service:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.dev
+    ports:
+      - 8000:3000
+    volumes:
+      - ./:/app
+    environment:
+      - DB_HOST=
+      - DB_USER=
+      - DB_PASS=
+      - DB_NAME=ecc-services
+      - OPENAI_API_KEY=
+      - OPENAI_ASSISTANT_ID=
+      - OPENAI_VECTOR_STORE_ID=
+      - FB_VERIFY_TOKEN=
+      - FB_PAGE_ACCESS_TOKEN=
+      - FB_PAGE_APP_ID=
+      - INTERCOM_TOKEN=
+      - INTERCOM_AI_USER_ID=
+      - REDIS_HOST=redis-service
+      - REDIS_PORT=6379
+      - REDIS_USERNAME=
+      - REDIS_PASSWORD=
+      - REDIS_PREFIX=ecc-dev
+      - BUSYBEE_URL=https://app.brandtxt.io
+      - BUSYBEE_API_KEY=
+      - BUSYBEE_CLIENT_ID=
+      - BUSYBEE_SENDER_ID="MBB Trial"
+      - TZ=+08:00
+    restart: always
+  mysql-service:
+    image: mysql:5.7
+    container_name: ecc-dev-mysql-service
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db-data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - TZ=Asia/Manila
+    command: --default-time-zone='Asia/Manila'
+  redis-service:
+    image: redis:7-alpine
+    container_name: ecc-dev-redis-service
+    volumes:
+      - ./redis-data:/data
+    ports:
+      - 6379:6379
+  redis-commander:
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    container_name: ecc-dev-redis-commander
+    restart: always
+    environment:
+      - REDIS_HOSTS=local:redis-service:6379
+      - TZ=Asia/Manila
+    ports:
+      - '8081:8081'
