@@ -6,10 +6,6 @@
 /db-data
 /redis-data
 
-.env
-docker-compose.yml
-docker-compose-prod.yml
-
 # Logs
 logs
 *.log
@@ -43,6 +39,9 @@ logs
 .env.test.local
 .env.production.local
 .env.local
+
+docker-compose.yaml
+docker-compose-prod.yaml
 
 # temp directory
 .temp
