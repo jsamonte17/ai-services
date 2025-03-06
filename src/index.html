@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      main {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/markesplana/ecc-ai/ecc-ai.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/markesplana/ecc-style/ecc-style.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/gh/markesplana/ecc-style/ecc-script.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to ECC-DEV page</h1>
+    </header>
+    <main>
+      <h2>Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc
+        vitae lacus tincidunt condimentum. Aliquam erat volutpat. Morbi sed nibh
+        in ex tincidunt mollis. Nulla facilisi. Duis id nulla eget nulla euismod
+        egestas. Sed tincidunt, nulla sed tincidunt cursus, nisl nulla tincidunt
+        velit, sed tincidunt arcu nibh vel nunc.
+      </p>
+      <button>Call to Action</button>
+    </main>
+
+    <script>
+      // var APP_ID = 'xwvbcks5'; // production key
+      var APP_ID = 'wf5asz2g'; // dev app id
+
+      window.intercomSettings = {
+        api_base: 'https://api-iam.intercom.io',
+        app_id: APP_ID,
+      };
+    </script>
+
+    <script>
+      (function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === 'function') {
+          ic('reattach_activator');
+          ic('update', w.intercomSettings);
+        } else {
+          var d = document;
+          var i = function () {
+            i.c(arguments);
+          };
+          i.q = [];
+          i.c = function (args) {
+            i.q.push(args);
+          };
+          w.Intercom = i;
+          var l = function () {
+            var s = d.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://widget.intercom.io/widget/' + APP_ID;
+            var x = d.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          };
+          if (document.readyState === 'complete') {
+            l();
+          } else if (w.attachEvent) {
+            w.attachEvent('onload', l);
+          } else {
+            w.addEventListener('load', l, false);
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>

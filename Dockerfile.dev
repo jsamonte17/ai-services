@@ -1,0 +1,8 @@
+# syntax=docker/dockerfile:1
+
+FROM node:iron-alpine
+WORKDIR /app
+
+RUN npm install -g pnpm
+
+CMD ["pnpm", "start:dev"]

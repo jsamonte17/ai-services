@@ -1,0 +1,385 @@
+{
+  "conversation_parts": [
+    {
+      "type": "conversation_part",
+      "id": "325",
+      "part_type": "comment",
+      "body": "<p>So what brings you here today?</p>",
+      "created_at": 1719564411,
+      "updated_at": 1719564411,
+      "notified_at": 1719564411,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "326",
+      "part_type": "comment",
+      "body": "<p>What is ecc?</p>",
+      "created_at": 1719564411,
+      "updated_at": 1719564411,
+      "notified_at": 1719564411,
+      "assigned_to": null,
+      "author": {
+        "id": "667e41b96a69528d14ff8160",
+        "type": "user",
+        "name": null,
+        "email": ""
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "327",
+      "part_type": "conversation_attribute_updated_by_admin",
+      "body": null,
+      "created_at": 1719564412,
+      "updated_at": 1719564412,
+      "notified_at": 1719564412,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "328",
+      "part_type": "comment",
+      "body": "<p>The ECC, or Employees' Compensation Commission, is a government corporation in the Philippines. It is attached to the Department of Labor and Employment for policy coordination and guidance. The ECC was created as a quasi-judicial corporate entity with the purpose of implementing the Employees’ Compensation Program (ECP). The ECP provides a range of benefits for employees in the public and private sectors, as well as their dependents, in the event of work-related sickness, injury, disability, or death. The ECC's mandate is to provide meaningful and appropriate compensation to workers who experience these work-connected contingencies.</p>\n <p><br>Source:<br><a href=\"https://ecc.gov.ph/ecc_corporate-profile/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"intercom-content-link\">Corporate Profile | Employees' Compensation Commission</a></p>",
+      "created_at": 1719564423,
+      "updated_at": 1719564423,
+      "notified_at": 1719564423,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "329",
+      "part_type": "comment",
+      "body": "<p>Was that helpful?</p>",
+      "created_at": 1719564424,
+      "updated_at": 1719564424,
+      "notified_at": 1719564424,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "330",
+      "part_type": "quick_reply",
+      "body": null,
+      "created_at": 1719564425,
+      "updated_at": 1719564425,
+      "notified_at": 1719564425,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "331",
+      "part_type": "close",
+      "body": null,
+      "created_at": 1719564605,
+      "updated_at": 1719564605,
+      "notified_at": 1719564605,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "332",
+      "part_type": "user_became_idle",
+      "body": null,
+      "created_at": 1719564606,
+      "updated_at": 1719564606,
+      "notified_at": 1719564606,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "user_became_idle": "**This field might be a typo, it should likely be 'author.type'**",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "333",
+      "part_type": "open",
+      "body": "<p>Hi Fin, how are you?</p>",
+      "created_at": 1719565221,
+      "updated_at": 1719565221,
+      "notified_at": 1719565221,
+      "assigned_to": null,
+      "author": {
+        "id": "667e41b96a69528d14ff8160",
+        "type": "user",
+        "name": null,
+        "email": ""
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "334",
+      "part_type": "comment",
+      "body": "<p>Hi! I'm here to assist you. How can I help you today?</p>",
+      "created_at": 1719565228,
+      "updated_at": 1719565228,
+      "notified_at": 1719565228,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "335",
+      "part_type": "close",
+      "body": null,
+      "created_at": 1719565409,
+      "updated_at": 1719565409,
+      "notified_at": 1719565409,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "336",
+      "part_type": "user_became_idle",
+      "body": null,
+      "created_at": 1719565410,
+      "updated_at": 1719565410,
+      "notified_at": 1719565410,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "337",
+      "part_type": "open",
+      "body": "<p>Can you tell me about your services, because I am currently testing your api response.</p>",
+      "created_at": 1719565769,
+      "updated_at": 1719565769,
+      "notified_at": 1719565769,
+      "assigned_to": null,
+      "author": {
+        "id": "667e41b96a69528d14ff8160",
+        "type": "user",
+        "name": null,
+        "email": ""
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "338",
+      "part_type": "comment",
+      "body": "The services offered include:\n- Hospital care and medical expenses.\n- Provision of appliances and supplies.\n- Rehabilitation services, which encompass medical-surgical management, hospitalization, physical restoration, psychosocial counseling, psychiatric evaluation, skills training, entrepreneur training, hearing and visual impairment evaluation, and job referral.\n- Carer’s allowance for employees with permanent partial or total disability due to work-related contingencies.\n- Death benefits, including funeral and EC death pension for beneficiaries of an employee who died due to a work-related sickness or injury.\n- Quick Response Program (QRP) providing psycho-social counselling, information on the Employees’ Compensation Program (ECP), and assistance in the EC benefits claim application process.",
+      "created_at": 1719565788,
+      "updated_at": 1719565788,
+      "notified_at": 1719565788,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "339",
+      "part_type": "comment",
+      "body": "<p>Did that answer your question?</p>",
+      "created_at": 1719565788,
+      "updated_at": 1719565788,
+      "notified_at": 1719565788,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "340",
+      "part_type": "quick_reply",
+      "body": null,
+      "created_at": 1719565789,
+      "updated_at": 1719565789,
+      "notified_at": 1719565789,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "341",
+      "part_type": "close",
+      "body": null,
+      "created_at": 1719565969,
+      "updated_at": 1719565969,
+      "notified_at": 1719565969,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "342",
+      "part_type": "user_became_idle",
+      "body": null,
+      "created_at": 1719565970,
+      "updated_at": 1719565970,
+      "notified_at": 1719565970,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "343",
+      "part_type": "open",
+      "body": "<p>Hi</p>",
+      "created_at": 1719566119,
+      "updated_at": 1719566119,
+      "notified_at": 1719566119,
+      "assigned_to": null,
+      "author": {
+        "id": "667e41b96a69528d14ff8160",
+        "type": "user",
+        "name": null,
+        "email": ""
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    },
+    {
+      "type": "conversation_part",
+      "id": "344",
+      "part_type": "comment",
+      "body": "<p>Hello! How can I assist you further today?</p>",
+      "created_at": 1719566124,
+      "updated_at": 1719566124,
+      "notified_at": 1719566124,
+      "assigned_to": null,
+      "author": {
+        "id": "7371007",
+        "type": "bot",
+        "name": "Fin",
+        "email": "operator+xwvbcks5@intercom.io"
+      },
+      "attachments": [],
+      "external_id": null,
+      "redacted": false
+    }
+  ]
+}
